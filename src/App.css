@@ -16,3 +16,26 @@
   width: calc(100% + 1.3px);
   height: 208px;
 }
+.gradient {
+  color: hsla(200, 67%, 43%, 1);
+
+  color: linear-gradient(
+    90deg,
+    hsla(200, 67%, 43%, 1) 33%,
+    hsla(184, 48%, 50%, 1) 100%
+  );
+
+  color: -moz-linear-gradient(
+    90deg,
+    hsla(200, 67%, 43%, 1) 33%,
+    hsla(184, 48%, 50%, 1) 100%
+  );
+
+  color: -webkit-linear-gradient(
+    90deg,
+    hsla(200, 67%, 43%, 1) 33%,
+    hsla(184, 48%, 50%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2586b8", endColorstr="#44b4bd", GradientType=1 );
+}
