@@ -1,7 +1,11 @@
+import { Outlet } from "react-router-dom";
+import Header from "./Components/Header";
+import "./App.css";
 const App = () => {
   return (
     <div>
-      <h1 className="text-xl text-bg-gray">hello world App</h1>
+      <Header showOnHeader={true} />
+      <Outlet />
     </div>
   );
 };

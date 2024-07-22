@@ -5,11 +5,13 @@ export default {
   theme: {
     extend: {
       colors: {
+        white: "white",
+        orange: "#f48c06",
         "bg-gray": "#979797",
         primary: "#49BBBD",
         "primary-light": "#96dadb",
         "text-color": "#5B5B5B",
-        "text-color-light": "#ACACAC",
+        "color-light": "#ACACAC",
       },
     },
   },
