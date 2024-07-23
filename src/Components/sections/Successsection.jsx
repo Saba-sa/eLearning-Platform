@@ -8,7 +8,7 @@ const Successsection = () => {
           culpa doloremque expedita atque quictetur adipisicing elit. Nobis qui
           culpa doloremque expedita atque qu
         </p>
-        <div className="flex items-center justify-center  gap-16 ">
+        <div className="flex items-center justify-center  gap-40 ">
           <div>
             <h2 className="text-6xl gradient">15K+</h2>
             <p className="text-2xl">Students</p>
