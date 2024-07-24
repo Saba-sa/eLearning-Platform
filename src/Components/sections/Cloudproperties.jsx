@@ -1,6 +1,7 @@
 import cloud1 from "../../assets/file.png";
 import cloud2 from "../../assets/calander.png";
 import cloud3 from "../../assets/people.png";
+import Heading from "../Heading";
 const Cloudproperties = () => {
   const data = [
     {
@@ -31,16 +32,13 @@ const Cloudproperties = () => {
 
   return (
     <section className="container my-28 m-auto px-8 text-center ">
-      <div>
-        <h2 className="text-3xl font-bold text-text-blue">
-          All-In-One <span className="text-calanderbg">Cloud Software</span>
-        </h2>
-        <p className="text-xl my-6 text-text-color w-[50%] m-auto">
-          We provide comprehensive cloud solutions tailored to your specific
+      <Heading
+        beforeText="All-In-One"
+        afterText="Cloud Software"
+        detail="  We provide comprehensive cloud solutions tailored to your specific
           needstions tailored to your specific needstions tailored to your
-          specific needs.
-        </p>
-      </div>
+          specific needs."
+      />
       <div className="flex text-center gap-8  mt-20  justify-center">
         {data.map((item) => {
           const { id, image, text, detail, color } = item;

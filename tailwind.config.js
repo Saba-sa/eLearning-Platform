@@ -16,6 +16,7 @@ export default {
         calanderbg: "#1fd0c0",
         filebg: "#5b72ee",
         peoplebg: "#29b9e7",
+        overlay: "rgb(0 0 0 / 37%)",
       },
     },
   },
