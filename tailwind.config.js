@@ -8,6 +8,7 @@ export default {
         white: "white",
         orange: "#f48c06",
         "bg-gray": "#979797",
+        subgray: "#73738b",
         primary: "#49BBBD",
         "primary-light": "#96dadb",
         "text-color": "#5B5B5B",

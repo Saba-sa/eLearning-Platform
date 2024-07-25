@@ -1,11 +1,11 @@
-import Heading from "../Heading";
-import toc1 from "../../assets/toc1.png";
-import toc2 from "../../assets/toc2.png";
-import teacher from "../../assets/teacher.png";
-import bigCircle from "../../assets/bigCircle.png";
-import smallCircle from "../../assets/smallCircle.png";
-import topReactangle from "../../assets/topReactangle.png";
-import bottomReactangle from "../../assets/bottomReactangle.png";
+import Heading from "../../Heading";
+import toc1 from "../../../assets/toc1.png";
+import toc2 from "../../../assets/toc2.png";
+import teacher from "../../../assets/teacher.png";
+import bigCircle from "../../../assets/bigCircle.png";
+import smallCircle from "../../../assets/smallCircle.png";
+import topReactangle from "../../../assets/topReactangle.png";
+import bottomReactangle from "../../../assets/bottomReactangle.png";
 const Totc = () => {
   return (
     <section className="container m-auto p-4 text-center">

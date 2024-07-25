@@ -1,7 +1,8 @@
-import Hero from "../Components/sections/Hero";
-import Successsection from "../Components/sections/Successsection";
-import Cloudproperties from "../Components/sections/Cloudproperties";
-import Totc from "../Components/sections/Totc";
+import Hero from "../Components/sections/Home/Hero";
+import Successsection from "../Components/sections/Home/Successsection";
+import Cloudproperties from "../Components/sections/Home/Cloudproperties";
+import Totc from "../Components/sections/Home/Totc";
+import Features from "../Components/sections/Home/Features";
 const Home = () => {
   return (
     <>
@@ -9,6 +10,7 @@ const Home = () => {
       <Successsection />
       <Cloudproperties />
       <Totc />
+      <Features />
     </>
   );
 };

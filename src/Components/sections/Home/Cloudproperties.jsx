@@ -1,7 +1,7 @@
-import cloud1 from "../../assets/file.png";
-import cloud2 from "../../assets/calander.png";
-import cloud3 from "../../assets/people.png";
-import Heading from "../Heading";
+import cloud1 from "../../../assets/file.png";
+import cloud2 from "../../../assets/calander.png";
+import cloud3 from "../../../assets/people.png";
+import Heading from "../../Heading";
 const Cloudproperties = () => {
   const data = [
     {

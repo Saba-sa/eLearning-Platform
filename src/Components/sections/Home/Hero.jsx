@@ -1,6 +1,5 @@
-import playicon from "../../assets/playicon.png";
-import heroImage from "../../assets/heroImage.png";
-import Herominibanner from "../../Components/Herominibanner.jsx";
+import playicon from "../../../assets/playicon.png";
+import heroImage from "../../../assets/heroImage.png";
 const Hero = () => {
   return (
     <div className=" relative bg-primary -top-[100px] overflow-hidden">
